@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&family=Lato:wght@300&family=Merriweather&family=Montserrat:wght@100;400;900&family=Oswald&family=Overpass:wght@300;400;700&family=Poppins:wght@100;200;300;400&family=Public+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&family=Sacramento&family=Sigmar+One&family=Ubuntu:wght@300&display=swap');
+
+/* other css file imports... */
+@import url('sections/header.css');
+/* @import url('sections/hero.css');
+@import url('sections/footer.css'); */
+
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400; */
+
+  /* color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+  --primary-color: rgb(234, 226, 183, 0.2);
+  --secondary-color: #d62828;
+  --third-color: #f77f00;
+  --fourth-color: #fcbf49;
+  --fifth-color: #003049;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+body {
+  /* max-width: 1280px; */
+  background-color: var(--primary-color);
+
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+
+
+/* @media(max-width: 698px) {
+  .header {
+    width: 50%;
+    background: #003049
+  }
+
+  .header__nav-container-logo p {
+    color: #eee;
+  }
+} */
+
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: none;
+}

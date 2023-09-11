@@ -1,0 +1,144 @@
+.header {
+    background: linear-gradient(90deg, rgba(214, 40, 40, 0.9528186274509804) 38%, rgba(247, 127, 0, 0.9332107843137255) 75%);
+    ;
+
+    /* max-width: 100%; */
+    padding: 0 3em;
+
+    /* overflow: hidden; */
+
+}
+
+.header__nav-container {
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.header__nav-container p {
+    font-size: 25px;
+    font-family: 'poppins';
+    font-weight: bold;
+
+    color: var(--fifth-color);
+}
+
+.header__nav-container-logo {
+    align-items: center;
+}
+
+.header__nav-container-logo img {
+    width: 80px;
+}
+
+/* .header__nav-container-search{
+
+} */
+.header__nav-container-links {
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.header__nav-container-links a {
+
+    list-style: none;
+
+    font-size: 22px;
+    font-family: 'poppins';
+
+    color: #000;
+
+    cursor: pointer;
+}
+
+.header__nav-container-menu {
+    display: none;
+
+    cursor: pointer;
+}
+
+.header__nav-container-menu div {
+    width: 23px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: #000;
+    transition: 0.4s;
+}
+
+.change .bar-1 {
+    transform: rotate(-45deg) translate(0, 8.5px);
+}
+
+.change .bar-2 {
+    opacity: 0;
+}
+
+.change .bar-3 {
+    transform: rotate(45deg) translate(0, -8.5px);
+}
+
+.header__nav-container-menuBody {
+    display: none;
+
+    position: absolute;
+
+    top: 60px;
+    /* right: -3.5%; */
+    right: -75%;
+    padding: 3em 1em;
+
+    width: 70%;
+    min-height: 89vh;
+
+    background: linear-gradient(70deg, rgba(214, 40, 40, 0.9528186274509804) 39%, rgba(247, 127, 0, 0.9332107843137255) 68%);
+
+    z-index: 1;
+
+    transition: 0.4s;
+}
+
+.header__nav-container-menuBody a {
+    display: flex;
+    color: #eee;
+    margin: 16px 0;
+    font-size: 22px;
+}
+
+
+/* MEDIA QUERIES... */
+
+@media(max-width: 576px) {
+    .header {
+        padding: 0 1em;
+    }
+
+    .header__nav-container-logo img {
+        width: 60px;
+    }
+
+    .header__nav-container p {
+        font-size: 16px;
+    }
+
+    .header__nav-container-links {
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .header__nav-container-links a {
+        display: none;
+    }
+
+    .header__nav-container-menu {
+        display: block;
+
+        cursor: pointer;
+    }
+
+    .header__nav-container-menuBody {
+        display: block;
+    }
+
+}
