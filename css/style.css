@@ -2,8 +2,8 @@
 
 /* other css file imports... */
 @import url('sections/header.css');
-/* @import url('sections/hero.css');
-@import url('sections/footer.css'); */
+@import url('sections/hero.css');
+@import url('sections/footer.css');
 
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -14,7 +14,7 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424; */
 
-  --primary-color: rgb(234, 226, 183, 0.2);
+  --primary-color: rgb(234, 226, 183, 0.5);
   --secondary-color: #d62828;
   --third-color: #f77f00;
   --fourth-color: #fcbf49;
