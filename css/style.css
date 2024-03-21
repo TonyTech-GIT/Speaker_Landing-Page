@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&family=Lato:wght@300&family=Merriweather&family=Montserrat:wght@100;400;900&family=Oswald&family=Overpass:wght@300;400;700&family=Poppins:wght@100;200;300;400&family=Public+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&family=Sacramento&family=Sigmar+One&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;700&family=Lato:wght@300&family=Merriweather&family=Montserrat:wght@100;400;900&family=Oswald&family=Overpass:wght@300;400;700&family=Poppins:wght@100;200;300;400&family=Public+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&family=Sacramento&family=Sigmar+One&family=Ubuntu:wght@300&display=swap");
 
 /* other css file imports... */
-@import url('sections/header.css');
-@import url('sections/hero.css');
-@import url('sections/footer.css');
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/footer.css");
 
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -33,7 +33,6 @@
   box-sizing: border-box;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -52,8 +51,6 @@ body {
 .grid {
   display: grid;
 }
-
-
 
 /* @media(max-width: 698px) {
   .header {
